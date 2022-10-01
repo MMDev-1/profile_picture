@@ -1,6 +1,6 @@
 name: profile_picture
 description: Profile picture implementation
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/MMDev-1/profile_picture
 
 environment:
