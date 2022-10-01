@@ -21,34 +21,7 @@ Profile Picture Helper with the pick image button
 Just import the package and enjoy relaxing from sketching the profile picture ui
 
 ## Usage
-import 'dart:developer';
-import 'package:flutter/material.dart';
-import 'package:flutter_package_preparation/the_pack.dart';
-
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-        title: 'Flutter Demo',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        home: const MyApplication());
-  }
-}
-
-class MyApplication extends StatefulWidget {
-  const MyApplication({super.key});
-
-  @override
-  State<MyApplication> createState() => _MyApplicationState();
-}
-
+[
 class _MyApplicationState extends State<MyApplication> {
   @override
   Widget build(BuildContext context) {
@@ -62,8 +35,7 @@ class _MyApplicationState extends State<MyApplication> {
             defaultImage:
                 "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVyc29ufGVufDB8fDB8fA%3D%3D&w=1000&q=80"));
   }
-}
-
+}]
 
 ## Additional information
 
